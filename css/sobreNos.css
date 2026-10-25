@@ -1,0 +1,461 @@
+:root {
+
+--cor-primary:  #52B1FF;
+--cor-second: #faeded;
+
+}
+
+:root {
+
+--cor-primary:  #52B1FF;
+--cor-second: #faeded;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', Arial, sans-serif;
+}
+
+body {
+  font-family: 'Josefin Sans', Arial, sans-serif;
+  background-color: var(--cor-second);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--cor-primary);
+  padding: 10px 40px;
+  height: 70px;
+}
+
+.navbar-Logo img {
+  height: 70px;
+}
+
+.navbar-Menu {
+  display: flex;
+  gap: 32px;
+}
+
+.navbar-Link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding-bottom: 6px;
+}
+
+.navbar-Link:hover {
+  opacity: 0.85;
+}
+
+.navbar-Button {
+  background-color: #ffffff;
+  color: #2196d8;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  letter-spacing: 0.5px;
+  transition: opacity 0.2s;
+}
+
+.navbar-button:hover {
+  opacity: 0.9;
+}
+
+.sobre-nos {
+  padding: 60px 40px;
+}
+
+.sobre-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.sobre-imagem {
+  flex: 1;
+}
+
+.sobre-imagem img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.sobre-texto {
+  flex: 1;
+}
+
+.sobre-texto h1 {
+  margin-bottom: 16px;
+  font-size: 28px;
+  color: var(--cor-primary);
+}
+
+.sobre-texto p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.footer {
+  background-color: var(--cor-primary);
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px 40px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.2fr;
+  gap: 48px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-logo-link {
+  display: inline-block;
+  line-height: 0;
+}
+
+.footer-description {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+  max-width: 380px;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.footer-links,
+.footer-info {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: rgba(7, 7, 7, 0.92);
+  text-decoration: none;
+  font-size: 15px;
+  transition: opacity 0.2s, padding-left 0.2s;
+}
+
+.footer-links a:hover {
+  opacity: 0.75;
+  padding-left: 6px;
+}
+
+.footer-info li {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.footer-info-label {
+  display: block;
+  color: #032677;
+  opacity: 0.75;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  padding: 20px 40px;
+  font-size: 14px;
+  color: rgba(10, 10, 10, 0.85);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--cor-primary);
+  padding: 10px 40px;
+  height: 70px;
+}
+
+.navbar-Logo img {
+  height: 70px;
+}
+
+.navbar-Menu {
+  display: flex;
+  gap: 32px;
+}
+
+.navbar-Link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding-bottom: 6px;
+}
+
+.navbar-Link:hover {
+  opacity: 0.85;
+}
+
+.navbar-Button {
+  background-color: #ffffff;
+  color: #2196d8;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  letter-spacing: 0.5px;
+  transition: opacity 0.2s;
+}
+
+.navbar-button:hover {
+  opacity: 0.9;
+}
+
+.sobre-nos {
+  padding: 60px 40px;
+}
+
+.sobre-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.sobre-imagem {
+  flex: 1;
+}
+
+.sobre-imagem img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.sobre-texto {
+  flex: 1;
+}
+
+.sobre-texto h1 {
+  margin-bottom: 16px;
+  font-size: 28px;
+  color: var(--cor-primary);
+}
+
+.sobre-texto p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.lgpd-title{
+  color: var(--color-primary);
+}
+
+.footer {
+  background-color: var(--cor-primary);
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px 40px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.2fr;
+  gap: 48px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-logo-link {
+  display: inline-block;
+  line-height: 0;
+}
+
+.footer-description {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+  max-width: 380px;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.footer-links,
+.footer-info {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: rgba(7, 7, 7, 0.92);
+  text-decoration: none;
+  font-size: 15px;
+  transition: opacity 0.2s, padding-left 0.2s;
+}
+
+.footer-links a:hover {
+  opacity: 0.75;
+  padding-left: 6px;
+}
+
+.footer-info li {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.footer-info-label {
+  display: block;
+  color: #032677;
+  opacity: 0.75;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  padding: 20px 40px;
+  font-size: 14px;
+  color: rgba(10, 10, 10, 0.85);
+}
+
+/* Conteúdo da seção LGPD */
+.lgpd-section {
+  max-width: 1000px;
+  margin: 0 auto 60px;
+  padding: 0 40px;
+  color: #333;
+}
+
+.lgpd-section h2 {
+  color: var(--cor-primary);
+  font-size: 28px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.lgpd-section h3 {
+  color: #246b9c;
+  font-size: 20px;
+  margin: 24px 0 10px;
+}
+
+.lgpd-section p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+.lgpd-section .lgpd-nota {
+  padding: 14px 18px;
+  border-left: 4px solid var(--cor-primary);
+  background: rgba(82, 177, 255, 0.12);
+  border-radius: 4px;
+}
+
+.footer-links a,
+.footer-info a {
+  color: #fff;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.footer-links a:hover,
+.footer-info a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+  .sobre-nos { padding: 36px 20px; }
+  .sobre-container { flex-direction: column; gap: 24px; }
+  .lgpd-section { padding: 0 20px; margin-bottom: 40px; }
+  .footer-container { grid-template-columns: 1fr; gap: 28px; padding: 36px 24px; }
+  .navbar { padding: 10px 18px; }
+  .navbar-Menu { gap: 12px; }
+}
+
+
+/* Linha visual que separa "Sobre Nós" da seção de LGPD */
+.secao-divisor {
+  width: 1270px;
+  border-radius: 10px;
+  height: 5px;
+  background-color: #52B1FF;
+  margin-top: 60px;
+
+}
+
+@media (max-width: 760px) {
+  .secao-divisor {
+    width: calc(100% - 40px);
+    margin-bottom: 32px;
+  }
+}
+
+
+/* Convite para novos voluntários */
+.voluntario-section { max-width: 1000px; margin: 12px auto 0; padding: 34px 0 8px; }
+.voluntario-content { padding: clamp(26px, 4vw, 42px); border-radius: 18px; text-align: center; background: #ffffff; box-shadow: 0 10px 30px rgba(20, 70, 110, .08); }
+.voluntario-content h2 { color: #176ba6; font-size: clamp(25px, 3vw, 34px); margin: 0 0 14px; }
+.voluntario-content p { max-width: 760px; margin: 0 auto 22px; color: #333; font-size: 16px; line-height: 1.75; }
+.voluntario-button { display: inline-flex; justify-content: center; align-items: center; padding: 14px 24px; border-radius: 999px; background: #176ba6; color: #fff; text-align: center; text-decoration: none; font-weight: 700; line-height: 1.4; transition: background .2s, transform .2s; }
+.voluntario-button:hover { background: #0e568b; transform: translateY(-1px); }
+@media (max-width: 600px) { .voluntario-section { margin-top: 0; } .voluntario-button { width: 100%; } }

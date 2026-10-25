@@ -1,0 +1,222 @@
+:root {
+
+--cor-primary:  #52B1FF;
+--cor-second: #faeded;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', Arial, sans-serif;
+}
+
+body {
+  font-family: 'Josefin Sans', Arial, sans-serif;
+  background-color: var(--cor-second);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--cor-primary);
+  padding: 10px 40px;
+  height: 70px;
+}
+
+.navbar-Logo img {
+  height: 70px;
+}
+
+.navbar-Menu {
+  display: flex;
+  gap: 32px;
+}
+
+.navbar-Link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding-bottom: 6px;
+}
+
+.navbar-Link:hover {
+  opacity: 0.85;
+}
+
+.navbar-Button {
+  background-color: #ffffff;
+  color: #2196d8;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  letter-spacing: 0.5px;
+  transition: opacity 0.2s;
+}
+
+.navbar-button:hover {
+  opacity: 0.9;
+}
+
+.doacao {
+  background-color: var(--cor-second);
+  padding: 60px 80px;
+}
+
+.doacao-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.doacao-line {
+  width: 150px;
+  height: 5px;
+  background-color: var(--cor-primary);
+}
+
+.doacao-header h2 {
+  font-size: 40px;
+  padding-left: 50px;
+  font-weight: 800;
+  color: #1a1a1a;
+}
+
+.doacao-content {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.doacao-marmita {
+  flex: 1;
+}
+
+.doacao-marmita img {
+  width: 80%;
+  text-align: center;
+  height: auto;
+  border-radius: 16px;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.doacao-ingredientes {
+  flex: 1.2;
+}
+
+.doacao-ingredientes h3 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 24px;
+}
+
+.ingrediente {
+  margin-bottom: 22px;
+}
+
+.ingrediente small {
+  display: block;
+  margin-top: 6px;
+  font-size: 14px;
+  color: #555;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+.progress {
+  width: 100%;
+  height: 14px;
+  background-color: #ffffff;
+  border-radius: 999px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.progress-grande {
+  height: 22px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: var(--cor-primary);
+  border-radius: 999px;
+  transition: width 0.6s ease;
+}
+
+.doacao-contato {
+  text-align: center;
+  padding: 60px 40px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.doacao-contato h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.doacao-contato p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.doacao-numero {
+  display: block;
+  font-size: 34px;
+  font-weight: 800;
+  color: #1a1a1a;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+.doacao-numero:hover {
+  color: #25D366;
+}
+
+.doacao-whatsapp {
+  display: inline-block;
+  background-color: #25D366;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 16px 32px;
+  border-radius: 999px;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.doacao-whatsapp:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+
+/* Mapa da Paróquia Nossa Senhora da Glória */
+.doacao-localizacao { max-width: 1100px; margin: 0 auto; padding: 20px 24px 64px; }
+.localizacao-heading { text-align: center; max-width: 760px; margin: 0 auto 24px; }
+.localizacao-heading h2 { color: #176ba6; font-size: clamp(26px, 3vw, 34px); margin: 0 0 12px; }
+.localizacao-heading p { color: #333; font-size: 16px; line-height: 1.7; }
+.mapa-container { height: 390px; overflow: hidden; border-radius: 18px; background: #e8eef2; box-shadow: 0 12px 30px rgba(20, 70, 110, .12); }
+.mapa-container iframe { display: block; width: 100%; height: 100%; border: 0; }
+.localizacao-link { display: table; margin: 18px auto 0; color: #176ba6; font-weight: 700; text-decoration: none; }
+.localizacao-link:hover { text-decoration: underline; }
+@media (max-width: 600px) { .doacao-localizacao { padding: 12px 16px 42px; } .mapa-container { height: 300px; border-radius: 12px; } }

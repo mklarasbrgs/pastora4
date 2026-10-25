@@ -1,0 +1,12 @@
+/* Página de privacidade e LGPD */
+.lgpd-page { background: #faeded; padding: 54px 24px 72px; color: #273746; }
+.lgpd-hero { max-width: 900px; margin: 0 auto 30px; text-align: center; }
+.lgpd-hero > span, .voluntario-eyebrow, .localizacao-eyebrow { display: inline-block; color: #176ba6; font-size: 13px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; margin-bottom: 12px; }
+.lgpd-hero h1 { color: #176ba6; font-size: clamp(28px, 4vw, 42px); line-height: 1.2; margin: 0 0 16px; }
+.lgpd-hero p { max-width: 760px; margin: 0 auto; font-size: 17px; line-height: 1.7; }
+.lgpd-card { max-width: 900px; margin: 0 auto; padding: clamp(24px, 4vw, 42px); border-radius: 18px; background: #fff; box-shadow: 0 12px 34px rgba(25, 70, 105, .08); }
+.lgpd-card h2 { margin: 24px 0 10px; color: #176ba6; font-size: 22px; }
+.lgpd-card h2:first-child { margin-top: 0; }
+.lgpd-card p { margin: 0 0 14px; font-size: 16px; line-height: 1.75; }
+.lgpd-note { margin-top: 24px; padding: 18px 20px; border-left: 4px solid #52b1ff; border-radius: 8px; background: #eef8ff; font-size: 14px; line-height: 1.7; }
+@media (max-width: 600px) { .lgpd-page { padding: 36px 16px 48px; } .lgpd-card { padding: 22px 18px; } .lgpd-card h2 { font-size: 20px; } }
